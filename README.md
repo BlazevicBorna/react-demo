@@ -16,7 +16,7 @@ and I did so by dividing them into diffrent folders: Common => common components
 
 I tried to use stateless(presentational/dumb) components as much as possible, so there is only one statefull(container/smart)
 component which is the ManagerPage component and contains most of the logic.
-The css is apart from the components(versus Zhydi's inline css and Ivan's file for file css) in the folder styles simply because there isnt much of it (the app relies on bootstrap).
+The css is separated from the components(versus Zhydi's inline css and Ivan's file for file css) in the folder styles simply because there isnt much of it (the app relies on bootstrap).
 
 The app's state is in the Redux Store and the components communicate with it using actions and reducers(standard Unidirectional Data Flow);
 Considering the state in Redux is immutable i have some diffrent practises when changing it than Ivan and Zhydi and have 

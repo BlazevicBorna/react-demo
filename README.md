@@ -34,3 +34,12 @@ links to some interesting dependencies:
 
 	https://github.com/gaearon/redux-thunk
 	https://github.com/leoasis/redux-immutable-state-invariant
+
+
+
+// ***** Koristio bi više arrow funkcije (zbog ES6 standarda, a i manje se misliš o bindanju funkcija)
+// ***** Uključi redux-logger pomogne ti pri testiranju dosta (omogućava ti da pratiš cijeli data flow priko console)
+// ***** Evo jedan zanimljiv primjer: https://github.com/pburtchaell/redux-promise-middleware/tree/master/examples/complex
+// ***** Rado bi koristio redux-promise-middleware, ali mislim da taj dio nećemo ni radit pa ti je ovo po meni za ubuduće dobro pogledat
+
+Kao što vidiš ovo su doslovno sitnice nekakve. Tako da sve u svemu bravo :)
